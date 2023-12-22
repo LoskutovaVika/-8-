@@ -12,6 +12,7 @@ function AddBlogToList(blog) {
   const randomImagePath = imagePaths[Math.floor(Math.random() * imagePaths.length)];
   let newImage = document.createElement('img');
   newImage.src = randomImagePath;
+  newImage.alt = "newImage";
   newImage.classList.add('blog-image');
 
   newTitle.textContent = blog['title'];
