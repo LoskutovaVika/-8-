@@ -1,0 +1,54 @@
+header, footer {
+    background-color: rgb(160, 210, 121);
+    margin-bottom: 10px;
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box;
+
+  }
+  
+.frame {
+    text-align: center; 
+    font-family:  fantasy;
+    font-size: 300%;
+  }
+footer{
+    margin-top: 10px;
+}
+.info {
+    cursor: default;
+    text-align: left;
+    margin: 10px;
+    margin-left: 50px;
+}
+body {
+    background-color: rgb(245, 245, 220);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog {
+    width: 500px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+.blog:hover{
+    background: rgb(160, 210, 121);
+	box-shadow: inset 0 0 0 3px rgb(152, 210, 108);
+}
+img{
+    width: 50%;
+}
+.blogTitle{
+    font-family:  fantasy;
+}
+  
